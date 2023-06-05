@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TicTacToe_KB2.Page_Imie_Komp">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Text="Imie gracza" Padding="10" HorizontalOptions="Center" FontSize="25" Grid.Row="1" Grid.ColumnSpan="3" VerticalOptions="End"/>
+        <Entry x:Name="Wpisywanie3" TextChanged="Wpisywanie3_TextChanged" Text="" Placeholder="Wpisz imie" BackgroundColor="WhiteSmoke" Grid.Row="2" Grid.ColumnSpan="3"/>
+        <Button Clicked="Button_1vsKOMP_Clicked" Text="Start" FontAttributes="Bold" FontSize="50" TextColor="#6db06d" BackgroundColor="LightGreen" Grid.Row="3" Grid.ColumnSpan="3" />
+
+    </Grid>
+</ContentPage>

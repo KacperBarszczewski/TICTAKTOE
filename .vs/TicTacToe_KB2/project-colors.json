@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e2480541-ee42-476f-a8d3-b3e607e7c12c": {
+      "ProjectGuid": "e2480541-ee42-476f-a8d3-b3e607e7c12c",
+      "DisplayName": "TicTacToe_KB2.Android",
+      "ColorIndex": 0
+    },
+    "44cf0530-680d-4461-9b4c-90a3780a1c8b": {
+      "ProjectGuid": "44cf0530-680d-4461-9b4c-90a3780a1c8b",
+      "DisplayName": "TicTacToe_KB2",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Różne pliki",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
