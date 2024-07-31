@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TicTacToe_KB2.MainPage">
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Text="TIC TAK TOE" Padding="10" HorizontalOptions="Center" FontSize="25"
+               Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"/>
+        <Button  Grid.Row="1" Grid.Column="0" Text="X" FontAttributes="Bold" FontSize="50" BackgroundColor="Coral" IsEnabled="False"/>
+        <Button Grid.Row="1" Grid.Column="1"  Text="X" FontAttributes="Bold" FontSize="50" BackgroundColor="Coral" IsEnabled="False"/>
+        <Button  Grid.Row="1" Grid.Column="2"  Text="X" FontAttributes="Bold" FontSize="50" BackgroundColor="Coral" IsEnabled="False"/>
+        <Button Clicked="Button_Start_Clicked" Text="Start" FontAttributes="Bold" FontSize="50" TextColor="#6db06d" BackgroundColor="LightGreen" Grid.Row="2" Grid.ColumnSpan="3" />
+        <Button Grid.Row="3" Grid.Column="0" Text="O" FontAttributes="Bold" FontSize="50" BackgroundColor="CornflowerBlue" IsEnabled="False"/>
+        <Button  Grid.Row="3" Grid.Column="1" Text="O" FontAttributes="Bold" FontSize="50" BackgroundColor="CornflowerBlue" IsEnabled="False"/>
+        <Button   Grid.Row="3" Grid.Column="2" Text="O" FontAttributes="Bold" FontSize="50" BackgroundColor="CornflowerBlue" IsEnabled="False"/>
+
+    </Grid>
+</ContentPage>
